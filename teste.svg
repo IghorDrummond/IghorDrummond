@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+    <foreignObject width="100%" height="100%">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+            <head>
+               <!-- Metadados e estilos CSS -->
+                <meta charset="UTF-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <style>
+                    /* Estilos para a cena e carrossel */
+                    .scene {
+                        width: 210px;
+                        height: 140px;
+                        position: relative;
+                        perspective: 1000px;
+                        margin: 50px auto;
+                    }
+
+                    .carousel {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        transform-style: preserve-3d;
+                        animation: inicia 1s;
+                    }
+
+                    /* Estilos para as células do carrossel */
+                    h5 {
+                        margin: 5px 0;
+                    }
+
+                    .carousel__cell {
+                        position: absolute;
+                        width: 190px;
+                        height: 120px;
+                        left: 10px;
+                        top: 10px;
+                        background-color: #ADE6D8;
+                        border: 1px solid black;
+                        text-align: center;
+                        color: white;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+
+                    /* Transformações individuais para cada célula do carrossel */
+                    .carousel__cell:nth-child(1) { transform: rotateY(0deg) translateZ(25em); }
+                    .carousel__cell:nth-child(2) { transform: rotateY(30deg) translateZ(25em); }
+                    .carousel__cell:nth-child(3) { transform: rotateY(60deg) translateZ(25em); }
+                    .carousel__cell:nth-child(4) { transform: rotateY(90deg) translateZ(25em); }
+                    .carousel__cell:nth-child(5) { transform: rotateY(120deg) translateZ(25em); }
+                    .carousel__cell:nth-child(6) { transform: rotateY(150deg) translateZ(25em); }
+                    .carousel__cell:nth-child(7) { transform: rotateY(180deg) translateZ(25em); }
+                    .carousel__cell:nth-child(8) { transform: rotateY(210deg) translateZ(25em); }
+                    .carousel__cell:nth-child(9) { transform: rotateY(240deg) translateZ(25em); }
+                    .carousel__cell:nth-child(10) { transform: rotateY(270deg) translateZ(25em); }
+                    .carousel__cell:nth-child(11) { transform: rotateY(300deg) translateZ(25em); }
+                    .carousel__cell:nth-child(12) { transform: rotateY(330deg) translateZ(25em); }
+
+                    /* Animação inicial */
+                    @keyframes inicia {
+                        from {
+                            transform: translateZ(-288px) rotateY(-160deg);
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <!-- Conteúdo HTML da cena e carrossel -->
+                <div class="scene">
+                    <div class="carousel">
+                        <!-- Células do carrossel com títulos e imagens -->
+                        <div class="carousel__cell">
+                            <div class="ighor">
+                                <h5 class="titulo">Cyberpunk 2077</h5>
+                                <img src="img/bg-11.png" alt="CyberPunk 2077" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Calculadora Aprimorada</h5>
+                                <img src="img/bg-7.jpg" alt="Calculadora Aprimorada" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Site Prof Mara</h5>
+                                <img src="img/bg-12.png" alt="Prof Mara" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Noticia Cidades</h5>
+                                <img src="img/bg-6.jpg" alt = "Noticia Cidades" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Chalé Hotel</h5>
+                                <img src="img/bg-9.jpg" alt="Chalé Hotel" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Site Finans</h5>
+                                <img src="img/bg-8.jpg" alt = "Site Finans" width="175" height="90" />
+                            </div>
+                        </div>                        
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Site TecBlog</h5>
+                                <img src="img/bg-5.jpg" alt="Site TecBlog" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Proposta de Projeto</h5>
+                                <img src="img/bg-4.jpg" alt = "Proposta de Projeto" width="175" height="90" />
+                            </div>
+                        </div>                        
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Site Spotify</h5>
+                                <img src="img/bg-1.jpg" alt="Site Spotify" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Simulador UCP</h5>
+                                <img src="img/bg-3.jpg" alt="Simulador UCP" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">PortFólio</h5>
+                                <img src="img/bg-13.png" alt="PortFólio" width="175" height="90" />
+                            </div>
+                        </div>
+                        <div class="carousel__cell">
+                            <div>
+                                <h5 class="titulo">Game Mata Mosquito</h5>
+                                <img src="img/bg-10.png" alt="Game Mata Mosquito" width="175" height="90" />
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Texto informativo e script de rotação do carrossel -->
+                <p>Desenvolvido por Ighor Drummond</p>
+                <script>
+                    // Script para a rotação contínua do carrossel
+                    var Carousel = document.getElementsByClassName('carousel')
+                    var nLimite = 0
+                
+                    setInterval(function(){
+                        rotacionaCarousel()
+                        Carousel[0].style.transform = 'rotateY(' + nLimite +'deg)'
+                    }, 4000)
+
+                    function rotacionaCarousel(){
+                        
+                        if(nLimite > 330){
+                            nLimite = 0
+                        }
+                        nLimite += 30
+
+                            Carousel[0].animate([
+                            // keyframes
+                            { transform: "rotateY("+ (nLimite - 30) +"deg)"},
+                            { transform: "rotateY("+ (nLimite) +"deg)" }
+                        ], {
+                            // timing options
+                            duration: 1500,
+                            iterations: 1
+                        });
+                    }    
+                </script>
+            </body>
+        </html>
+    </foreignObject>
+</svg>
