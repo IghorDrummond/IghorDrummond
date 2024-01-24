@@ -11,7 +11,8 @@
                         width: 210px;
                         height: 140px;
                         position: relative;
-                        perspective: 1000px;
+                        -webkit-perspective: 1000px;
+                                perspective: 1000px;
                         margin: 50px auto;
                     }
 
@@ -19,8 +20,10 @@
                         width: 100%;
                         height: 100%;
                         position: absolute;
-                        transform-style: preserve-3d;
-                        animation: inicia 1s;
+                        -webkit-transform-style: preserve-3d;
+                                transform-style: preserve-3d;
+                        -webkit-animation: inicia 1s;
+                                animation: inicia 1s;
                     }
 
                     /* Estilos para as células do carrossel */
@@ -46,23 +49,30 @@
                     }
 
                     /* Transformações individuais para cada célula do carrossel */
-                    .carousel__cell:nth-child(1) { transform: rotateY(0deg) translateZ(25em); }
-                    .carousel__cell:nth-child(2) { transform: rotateY(30deg) translateZ(25em); }
-                    .carousel__cell:nth-child(3) { transform: rotateY(60deg) translateZ(25em); }
-                    .carousel__cell:nth-child(4) { transform: rotateY(90deg) translateZ(25em); }
-                    .carousel__cell:nth-child(5) { transform: rotateY(120deg) translateZ(25em); }
-                    .carousel__cell:nth-child(6) { transform: rotateY(150deg) translateZ(25em); }
-                    .carousel__cell:nth-child(7) { transform: rotateY(180deg) translateZ(25em); }
-                    .carousel__cell:nth-child(8) { transform: rotateY(210deg) translateZ(25em); }
-                    .carousel__cell:nth-child(9) { transform: rotateY(240deg) translateZ(25em); }
-                    .carousel__cell:nth-child(10) { transform: rotateY(270deg) translateZ(25em); }
-                    .carousel__cell:nth-child(11) { transform: rotateY(300deg) translateZ(25em); }
-                    .carousel__cell:nth-child(12) { transform: rotateY(330deg) translateZ(25em); }
+                    .carousel__cell:nth-child(1) { -webkit-transform: rotateY(0deg) translateZ(25em); transform: rotateY(0deg) translateZ(25em); }
+                    .carousel__cell:nth-child(2) { -webkit-transform: rotateY(30deg) translateZ(25em); transform: rotateY(30deg) translateZ(25em); }
+                    .carousel__cell:nth-child(3) { -webkit-transform: rotateY(60deg) translateZ(25em); transform: rotateY(60deg) translateZ(25em); }
+                    .carousel__cell:nth-child(4) { -webkit-transform: rotateY(90deg) translateZ(25em); transform: rotateY(90deg) translateZ(25em); }
+                    .carousel__cell:nth-child(5) { -webkit-transform: rotateY(120deg) translateZ(25em); transform: rotateY(120deg) translateZ(25em); }
+                    .carousel__cell:nth-child(6) { -webkit-transform: rotateY(150deg) translateZ(25em); transform: rotateY(150deg) translateZ(25em); }
+                    .carousel__cell:nth-child(7) { -webkit-transform: rotateY(180deg) translateZ(25em); transform: rotateY(180deg) translateZ(25em); }
+                    .carousel__cell:nth-child(8) { -webkit-transform: rotateY(210deg) translateZ(25em); transform: rotateY(210deg) translateZ(25em); }
+                    .carousel__cell:nth-child(9) { -webkit-transform: rotateY(240deg) translateZ(25em); transform: rotateY(240deg) translateZ(25em); }
+                    .carousel__cell:nth-child(10) { -webkit-transform: rotateY(270deg) translateZ(25em); transform: rotateY(270deg) translateZ(25em); }
+                    .carousel__cell:nth-child(11) { -webkit-transform: rotateY(300deg) translateZ(25em); transform: rotateY(300deg) translateZ(25em); }
+                    .carousel__cell:nth-child(12) { -webkit-transform: rotateY(330deg) translateZ(25em); transform: rotateY(330deg) translateZ(25em); }
 
                     /* Animação inicial */
+                    @-webkit-keyframes inicia {
+                        from {
+                            -webkit-transform: translateZ(-288px) rotateY(-160deg);
+                                    transform: translateZ(-288px) rotateY(-160deg);
+                        }
+                    }
                     @keyframes inicia {
                         from {
-                            transform: translateZ(-288px) rotateY(-160deg);
+                            -webkit-transform: translateZ(-288px) rotateY(-160deg);
+                                    transform: translateZ(-288px) rotateY(-160deg);
                         }
                     }
                 </style>
