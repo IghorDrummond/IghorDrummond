@@ -36,5 +36,4 @@
 <br>
 <br>
 
-[![SVG Carousel](https://github.com/IghorDrummond/IghorDrummond/blob/main/teste.svg)]
 
