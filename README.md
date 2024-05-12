@@ -32,7 +32,7 @@
     <img aling="center" alt="WordPress" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white">   
     <img aling="center" alt="WordPress" src="https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=whit"> 
     <img aling="center" alt="WordPress" src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white"> 
-    <img align='center' alt='MySql' src'https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white'>
+    <img align='center' alt='MySql' src"[https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white](https://camo.githubusercontent.com/b26699b50f121ded46e4f9f975eb7f48a9eb43e81582986c4b98766592576c01/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d7953514c2d3030354338343f7374796c653d666f722d7468652d6261646765266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465)">
 </div>
 <br>
 <br>
