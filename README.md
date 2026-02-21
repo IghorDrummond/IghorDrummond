@@ -26,8 +26,6 @@
 
 ### 🚀 Minhas Estatísticas
 
-> **Nota:** Se os cards abaixo não carregarem em algum momento, é devido ao limite da API pública do GitHub. Eles costumam voltar ao normal sozinhos após alguns minutos!
-
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IghorDrummond&show_icons=true&theme=merko&hide_border=true" alt="Estatísticas do GitHub do Ighor" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IghorDrummond&theme=blue-green&layout=compact&hide_border=true" alt="Linguagens mais utilizadas" />
