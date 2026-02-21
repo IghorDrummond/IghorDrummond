@@ -26,6 +26,8 @@
 
 ### 🚀 Minhas Estatísticas
 
+> **Nota:** Se os cards abaixo não carregarem em algum momento, é devido ao limite da API pública do GitHub. Eles costumam voltar ao normal sozinhos após alguns minutos!
+
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IghorDrummond&show_icons=true&theme=merko&hide_border=true" alt="Estatísticas do GitHub do Ighor" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IghorDrummond&theme=blue-green&layout=compact&hide_border=true" alt="Linguagens mais utilizadas" />
@@ -48,6 +50,7 @@
   <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" alt="Threejs">
   <img src="https://img.shields.io/badge/Bootstrap_5-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
 </p>
 
 **📱 Mobile Development**
@@ -73,6 +76,9 @@
   <img src="https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="PL/SQL">
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 </p>
 
 **☁️ Infraestrutura, CI/CD & DevOps**
