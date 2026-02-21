@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://port-folio-drummond.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/website?label=Portfólio&style=for-the-badge&url=https://port-folio-drummond.vercel.app/" alt="Portfólio">
+    <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio">
   </a>
   <a href="https://www.instagram.com/ighordrummond/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
